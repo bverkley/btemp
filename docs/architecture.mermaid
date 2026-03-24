@@ -1,0 +1,20 @@
+flowchart LR
+  subgraph collect [Collection]
+    Fetch[fetch_readings]
+    Parse[Parse JSON or text]
+  end
+  subgraph domain [Grouping]
+    Group[group_readings]
+  end
+  subgraph state [State]
+    History[History ring buffers per series id]
+  end
+  subgraph tui [TUI]
+    App[ui/mod App and layout]
+    Chart[ui/chart Canvas]
+  end
+  Fetch --> Parse
+  Parse --> History
+  Parse --> Group
+  Group --> App
+  History --> App --> Chart

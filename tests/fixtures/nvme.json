@@ -1,0 +1,19 @@
+{
+  "nvme-pci-0100": {
+    "Adapter": "PCI adapter",
+    "Composite": {
+      "temp1_input": 38.9,
+      "temp1_max": 84.8,
+      "temp1_min": -273.1
+    },
+    "Sensor 2": {
+      "temp1_input": 40.0
+    }
+  },
+  "nvme-pci-0200": {
+    "Adapter": "PCI adapter",
+    "Composite": {
+      "temp1_input": 41.2
+    }
+  }
+}

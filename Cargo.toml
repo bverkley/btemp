@@ -1,0 +1,18 @@
+[package]
+name = "btemp"
+version = "0.1.0"
+edition = "2021"
+description = "btop-inspired TUI for lm-sensors temperature graphs"
+license = "MIT"
+repository = "https://github.com/bverkley/btemp"
+readme = "README.md"
+keywords = ["tui", "sensors", "temperature", "ratatui", "linux"]
+categories = ["command-line-utilities"]
+exclude = ["docs/status.md"]
+
+[dependencies]
+anyhow = "1.0"
+crossterm = "0.28"
+ratatui = "0.29"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
