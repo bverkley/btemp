@@ -4,6 +4,12 @@ Terminal UI for live **temperature** graphs from **lm-sensors**, in the spirit o
 
 **Repository:** [github.com/bverkley/btemp](https://github.com/bverkley/btemp)
 
+## Screenshot
+
+![btemp TUI showing CPU, storage, motherboard, and other temperature panels](screenshots/btemp2.png)
+
+Additional examples can be added under [`screenshots/`](screenshots/).
+
 ## Requirements
 
 - Linux
@@ -62,7 +68,7 @@ Issues and pull requests are welcome.
 ## Credits
 
 - **Idea and direction:** Brian Verkley
-- **Code:** Built with [Cursor](https://cursor.com) and Claude (Anthropic)
+- **Code:** Built with [Cursor](https://cursor.com)
 
 ## License
 
